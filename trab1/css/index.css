@@ -1,0 +1,53 @@
+#info{
+    display: table;
+    background: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+}
+
+#info-content{
+    background: url("/trab1/imgs/IguanaBack.jpg") 50% 50% / cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+}
+
+#info-content > ul{
+    background-color: rgba(0,0,0, 0.3);
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    margin: 0px 10px 0px 10px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 0%;
+}
+
+#info-content > ul > li > h1{ 
+    z-index: 2;
+    margin: 5% 5% 1% 5%;
+    padding: 20px 20px 1px 20px;
+    font-size: 400%;               
+}
+
+#info-content > ul >li > p{
+    z-index: 2;
+    padding: 0px 20px 20px 20px;
+    font-style: italic;                 
+}
+
+@media only screen and (max-width: 767px) {
+    #info-content {
+      background-image: url("/trab1/imgs/IguanaBack.jpg");
+    }
+  }
+
+
+    

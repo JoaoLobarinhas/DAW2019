@@ -1,0 +1,40 @@
+#info{
+    overflow-wrap: break-word;
+    color: black;
+    word-wrap: break-word;
+    padding: 5%;
+    margin: auto;
+}
+
+#info li{
+    float: left;
+    margin: auto; 
+}
+
+#info ul{
+    display: inline-block;
+    margin: auto;
+    overflow: auto;
+}
+
+#info h1, #info h2, #info h3{
+    padding-top: 2.5%;
+    margin: auto;
+    overflow: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 915px) {
+
+    #info{
+        overflow: hidden;
+        padding-top: 10%;
+    }
+
+    #info h1, #info h2, #info h3{
+        padding-top: 4%;
+    }
+
+  }
