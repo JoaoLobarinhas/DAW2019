@@ -28,11 +28,11 @@
         <deliverable url="pr.dtd">
             DTD criado de acordo com o project record.
         </deliverable>
-        <deliverable>
-            
+        <deliverable url="exe6.txt">
+            Respostas ao exercicio 6 da ficha 3.
         </deliverable>
-        <deliverable>
-            
+        <deliverable url="arq.dtd">
+            Dtd gerado do xml dos arqueossítios.
         </deliverable>
     </deliverables>
     <footer>
