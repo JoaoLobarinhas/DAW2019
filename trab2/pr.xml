@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project-record SYSTEM "C:\Users\Lobarinhas\Desktop\UM\DesvolvimentoWebApp\DWeb2019\trab2\pr.dtd">
+<project-record>
+    <header>
+        <keyname>TP2-DWeb2019</keyname>
+        <title>TPC2: DTDs e um pouco de XPath</title>
+        <begin-date>15/10/2019</begin-date>
+        <end-date>15/10/2019</end-date>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">
+            José Carlos Ramalho
+        </supervisor>
+    </header>
+    <workTeam>
+        <element>
+            <number>PG41845</number>
+            <name>João Lobarinhas Fernandes Miranda</name>
+            <email url="pg41845@alunos.uminho.pt">pg41845@alunos.uminho.pt</email>
+        </element>
+    </workTeam>
+    <abstract>
+        Neste trabalho prático consistio na resolução de 3 execicios, uma análise a <italic>project record</italic>
+        e a especificação de um DTD para a sua estrutura, e a resolução o execício 6 e 7 da ficha 3.
+    </abstract>
+    <deliverables>
+        <deliverable url="pr.xml">
+            Ficheiro XML de acordo com o DTD criado.
+        </deliverable>
+        <deliverable url="pr.dtd">
+            DTD criado de acordo com o project record.
+        </deliverable>
+        <deliverable>
+            
+        </deliverable>
+        <deliverable>
+            
+        </deliverable>
+    </deliverables>
+    <footer>
+        15/10/2019
+    </footer>
+</project-record>

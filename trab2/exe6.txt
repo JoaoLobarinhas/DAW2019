@@ -1,0 +1,4 @@
+6)
+  A) //IDENTI[./CONCEL=" Amares "]
+  B) //CONCEL[./TIPO[@ASSUNTO="arqueossitio"]]
+  C) //DESCRI[./CONCEL=" Montalegre  "]
