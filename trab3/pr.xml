@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project-record SYSTEM "C:\Users\Lobarinhas\Desktop\UM\DesvolvimentoWebApp\DWeb2019\trab2\pr.dtd">
+<project-record>
+    <header>
+        <keyname>TP3-DWeb2019</keyname>
+        <title>TPC3: Transformações com XSLT</title>
+        <subtitle></subtitle>
+        <begin-date>16/10/2019</begin-date>
+        <end-date>16/10/2019</end-date>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">
+            José Carlos Ramalho
+        </supervisor>
+    </header>
+    <workTeam>
+        <element>
+            <number>PG41845</number>
+            <name>João Lobarinhas Fernandes Miranda</name>
+            <email url="pg41845@alunos.uminho.pt">pg41845@alunos.uminho.pt</email>
+        </element>
+    </workTeam>
+    <abstract>
+        <text>
+            Especificação de uma <italic>stylesheet</italic> para transformar o <bold>PR.xml em PR.html</bold>;
+        </text>
+        <text>
+            Especificação de uma <italic>stylesheet</italic> para gerar um <italic>website</italic> para os arqueossítios.
+        </text>
+    </abstract>
+    <deliverables>
+        <deliverable url="pr.xml">
+            Ficheiro XML do Porject Record.
+        </deliverable>
+        <deliverable url="pr.dtd">
+            DTD do Project Record.
+        </deliverable>
+        <deliverable url="pr.html">
+            Html do Project Record.
+        </deliverable>
+        <deliverable url="pr.xsl">
+            XSL do Project Record.
+        </deliverable>
+        <deliverable url="arq/arq.xml">
+            XML dos Arqueossítios.
+        </deliverable>
+        <deliverable url="arq/arq.dtd">
+            DTD dos Arqueossítios.
+        </deliverable>
+        <deliverable url="arq/arq.xsl">
+            XSL dos Arqueossítios.
+        </deliverable>
+        <deliverable url="arq/html">
+            Páginas Html geradas do XSL dos Arqueossítios.
+        </deliverable>
+    </deliverables>
+    <footer>
+        15/10/2019
+    </footer>
+</project-record>

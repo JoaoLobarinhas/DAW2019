@@ -17,8 +17,7 @@
 <!ELEMENT email (#PCDATA)>
 <!ATTLIST email url CDATA #REQUIRED>
 
-<!ELEMENT abstract (text)*>
-<!ELEMENT text (#PCDATA | bold | italic | underline | link)*>
+<!ELEMENT abstract (#PCDATA | bold | italic | underline | link)*>
 <!ELEMENT bold (#PCDATA | italic | underline | link)*>
 <!ELEMENT italic (#PCDATA | bold | underline | link)*>
 <!ELEMENT underline (#PCDATA | bold | italic | link)*>
