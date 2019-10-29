@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project-record SYSTEM "C:\Users\Lobarinhas\Desktop\UM\DesvolvimentoWebApp\DWeb2019\trab4\pr.dtd">
+<project-record>
+    <header>
+        <keyname>TP4-DWeb2019</keyname>
+        <title>TPC4: Servidor de ficheiros</title>
+        <subtitle></subtitle>
+        <begin-date>25/10/2019</begin-date>
+        <end-date>28/10/2019</end-date>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">
+            José Carlos Ramalho
+        </supervisor>
+    </header>
+    <workTeam>
+        <element>
+            <number>PG41845</number>
+            <name>João Lobarinhas Fernandes Miranda</name>
+            <email url="pg41845@alunos.uminho.pt">pg41845@alunos.uminho.pt</email>
+        </element>
+    </workTeam>
+    <abstract>
+        <text>
+            Descarregar o ficheiro com o dataset dos arqueossítios em XML: http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/arq.xml;
+        </text>
+        <text>
+            Criar uma stylesheet XSLT que processe este ficheiro e gere um ficheiro por cada arqueossítio e os coloque numa pasta: arq1.xsml, arq2.xml, ...
+        </text>
+        <text>
+            No passo anterior, cada ficheiro XML deverá estar associado a uma stylesheet XSLT que o transforma para HTML (deixei ajuda no material da aula4);
+        </text>
+        <text>
+            Criar um servidor em nodejs que sirva os ficheiros, ou seja, responde aos pedidos: 
+                localhost:7777/3  --> Coloca no browser o conteúdo do arq3.xml em formato HTML
+                , localhost:7777/122  --> Coloca no browser o conteúdo do arq122.xml em formato HTML, e por aí adiante...
+        </text>
+        <text>
+            Se conseguirem criem uma página de entrada com um índice que liga às outras páginas com pedidos...
+        </text>
+        <text>
+            Há umas ratoeiras pelo caminho mas na aula tive o cuidado de criar exemplos de como "auscultar" situações problemáticas e resolvê-las...
+        </text>
+    </abstract>
+    <deliverables>
+        <deliverable url="pr.xml">
+            Ficheiro XML do Porject Record.
+        </deliverable>
+        <deliverable url="pr.dtd">
+            DTD do Project Record.
+        </deliverable>
+        <deliverable url="trab">
+            Pasta onde guarda os ficheiros referentes a este tpc.
+        </deliverable>
+        <deliverable url="trab/arq.xsl">
+            XSL que define o estilo da página HTML.
+        </deliverable>
+        <deliverable url="trab/arq.xml">
+            XML dos Arqueossítios.
+        </deliverable>
+        <deliverable url="trab/arq.dtd">
+            DTD dos Arqueossítios.
+        </deliverable>
+        <deliverable url="trab/arq-create.xsl">
+            Gera os XML dos Arqueossítios com o estilo definido pelo arq.xsl.
+        </deliverable>
+        <deliverable url="arq/server.js">
+            Servidor em node.js que permite fazer a gestão das páginas.
+        </deliverable>
+        <deliverable url="arq/xmls">
+            Pasta com os XML's gerados.
+        </deliverable>
+    </deliverables>
+    <footer>
+        28/10/2019
+    </footer>
+</project-record>
