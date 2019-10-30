@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project-record SYSTEM "C:\Users\Lobarinhas\Desktop\UM\DesvolvimentoWebApp\DWeb2019\trab5\pr.dtd">
+<project-record>
+    <header>
+        <keyname>TP5-DWeb2019</keyname>
+        <title>TPC5: Servidor de Gestão de Tarefas</title>
+        <subtitle></subtitle>
+        <begin-date>30/10/2019</begin-date>
+        <end-date>30/10/2019</end-date>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">
+            José Carlos Ramalho
+        </supervisor>
+    </header>
+    <workTeam>
+        <element>
+            <number>PG41845</number>
+            <name>João Lobarinhas Fernandes Miranda</name>
+            <email url="pg41845@alunos.uminho.pt">pg41845@alunos.uminho.pt</email>
+        </element>
+    </workTeam>
+    <abstract>
+        <text>
+            Criar um servidor que permita fazer a gestão de tarefas
+        </text>
+        <text>
+            Listar as tarefas existentes.
+        </text>
+        <text>
+           Poder criar tarefas
+        </text>
+    </abstract>
+    <deliverables>
+        <deliverable url="pr.xml">
+            Ficheiro XML do Porject Record.
+        </deliverable>
+        <deliverable url="pr.dtd">
+            DTD do Project Record.
+        </deliverable>
+        <deliverable url="trab">
+            Pasta onde guarda os ficheiros referentes a este tpc.
+        </deliverable>
+        <deliverable url="trab/server.js">
+            Ficheiro javascript que permite iniciar o servidor.
+        </deliverable>
+        <deliverable url="trab/tarefas.json">
+            Ficheiro json que permie armazenar as tarefas.
+        </deliverable>
+        <deliverable url="trab/layout.pug">
+            Ficheiro que define o layout para a página web.
+        </deliverable>
+        <deliverable url="trab/index.pug">
+            Ficheiro que permite criar dinamicamente a página web.
+        </deliverable>
+        <deliverable url="trab/erro.pug">
+            Ficheiro que é criar uma página web em caso de erro.
+        </deliverable>
+        <deliverable url="trab/css">
+            Pasta que armazena o css das páginas web.
+        </deliverable>
+    </deliverables>
+    <footer>
+        28/10/2019
+    </footer>
+</project-record>

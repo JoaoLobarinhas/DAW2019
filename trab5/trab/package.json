@@ -1,0 +1,28 @@
+{
+  "name": "tarefas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "jsonfile": "^5.0.0",
+    "pug": "^2.0.4",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoLobarinhas/DWeb2019.git"
+  },
+  "author": "João Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoLobarinhas/DWeb2019/issues"
+  },
+  "homepage": "https://github.com/JoaoLobarinhas/DWeb2019#readme"
+}
