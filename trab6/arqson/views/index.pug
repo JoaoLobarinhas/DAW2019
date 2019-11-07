@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  .w3-container
+    div
+      h1 Arquivo Sonoro de Ernesto Veiga de Oliveira
+      br
+      a.w3-button.w3-black.w3-section(href="/") Adicionar Nova Musica
+    br
+    div.w3-card
+      table.w3-table-all
+        tr
+          th ID
+          th Titlo
+          th Musico
+          th Duração
+          th Operações
+        each m in lista
+          tr
+            td=m.id
+            td=m.tit
+            td=m.musico
+            td=m.duracao
+            td
+              button.w3-button.w3-red.w3-cirlce(onClick="apagaRegisto('"+m.id+"')") Apagar
+              a.w3-button.w3-black.w3-cirlce(href="/editar/"+m.id) Editar
+              a.w3-button.w3-black.w3-cirlce(href="/"+m.id) Detalhes 
+

@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  .w3-container
+    div
+      h1 Arquivo Sonoro de Ernesto Veiga de Oliveira
+      br
+      a.w3-button.w3-black.w3-section(href="/") Adicionar Nova Musica
+      br
+      a.w3-button.w3-blue.w3-section(href="/") Listar Todas as Musicas
+    br
+    div.w3-card
+        ul
+            h1 ID:
+            p=musica.id
+            h1 Titulo:
+            p=musica.tit
+            h1 Musico:
+            p=musica.musico
+            h1 Duração:
+            p=musica.duracao
+            h1 Localização:
+            p=musica.prov+", "+musica.local
+            
+        
