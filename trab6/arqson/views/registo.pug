@@ -1,0 +1,34 @@
+extends layout
+
+block content
+  .w3-container
+    div
+      h1 Arquivo Sonoro de Ernesto Veiga de Oliveira
+      br
+      h3 Inserir uma Nova Musica
+      br
+      a.w3-button.w3-blue.w3-section(href="/") Listar Todas as Musicas
+    br
+    div.w3-card-4
+        form(action="/registo" method='POST')
+            label
+                b ID:
+            input.w3-input(type='text' readonly name='id' value=id )
+            label
+                b Titulo:
+            input.w3-input(type='text' name='tit')
+            label
+                b Musico:
+            input.w3-input(type='text' name='musico')
+            label
+                b Duração:
+            input.w3-input(type='text' name='duracao')
+            label
+                b Provincia:
+            input.w3-input(type='text' name='prov')
+            label
+                b Localidade:
+            input.w3-input(type='text' name='local')
+            br
+            input.w3-btn.w3-dark-grey(type="submit" value="registo")
+            br

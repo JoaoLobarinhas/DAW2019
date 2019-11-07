@@ -1,29 +1,24 @@
-const jsonfile = require('jsonfile');
+function editar(id){
+    musica = {
+        id: document.getElementById('id').value,
+        prov: document.getElementById('prov').value,
+        local: document.getElementById('local').value,
+        tit: document.getElementById('tit').value,
+        musico: document.getElementById('musico').value,
+        duracao: document.getElementById('duracao').value
+    }
 
-var myBD = __dirname+"/../arq-son-EVO.json"
-var id=0
-
-function increment_ids(){
-    jsonfile.readFile(myBD,(erro,data)=>{
-        if(erro){
-            console.log("actions/increment_ids()")
-            console.log("Erro a ler o ficheiro: "+erro)
-        }
-        else{
-            data.array.forEach(element => {
-                element["id"]=id
-                id++
-            });
-            jsonfile.writeFile(myBD,data,erro=>{
-                if(erro){
-                    console.log("Erro a gravar o json: "+erro)
-                }
-                else{
-                    console.log("Gravou o ficheiro")
-                }
-            })
-        }
-    })
+    axios.put('/editar/' + id, musica)
+        .then(response => window.location.assign('/'))
+        .catch(error => console.log(error))
 }
-increment_ids()
+
+function apagar(id){
+    axios.delete('/apagar/' + id)
+        .then(response => window.location.assign('/'))
+        .catch(error => console.log(error))
+}
+
+
+
 
