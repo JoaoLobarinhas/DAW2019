@@ -20,6 +20,9 @@
     </workTeam>
     <abstract>
         <text>
+            Responder a algumas perguntas referentes a queries feita utilizando MongoDB  
+        </text>
+        <text>
             Importar o documento <bold>"movies.json"</bold> para uma base de dados <bold>MongoDB</bold>
         </text>
         <text>
@@ -32,6 +35,9 @@
         </deliverable>
         <deliverable url="pr.dtd">
             DTD do Project Record.
+        </deliverable>
+        <deliverable url="perguntasMongo.txt">
+            Respostas as perguntas propostas.
         </deliverable>
         <deliverable url="movies">
             Pasta onde guarda os ficheiros referentes a este tpc.
