@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project-record SYSTEM "C:\Users\Lobarinhas\Desktop\UM\DesvolvimentoWebApp\DWeb2019\trab6\pr.dtd">
+<project-record>
+    <header>
+        <keyname>TP7-DWeb2019</keyname>
+        <title>TPC7: Aplicação Web de gestão de Filmes</title>
+        <subtitle></subtitle>
+        <begin-date>07/11/2019</begin-date>
+        <end-date>10/11/2019</end-date>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">
+            José Carlos Ramalho
+        </supervisor>
+    </header>
+    <workTeam>
+        <element>
+            <number>PG41845</number>
+            <name>João Lobarinhas Fernandes Miranda</name>
+            <email url="pg41845@alunos.uminho.pt">pg41845@alunos.uminho.pt</email>
+        </element>
+    </workTeam>
+    <abstract>
+        <text>
+            Importar o documento <bold>"movies.json"</bold> para uma base de dados <bold>MongoDB</bold>
+        </text>
+        <text>
+            Implementar uma aplicação web que consiga fazer todas as funcionalidades do CRUD.
+        </text>
+    </abstract>
+    <deliverables>
+        <deliverable url="pr.xml">
+            Ficheiro XML do Porject Record.
+        </deliverable>
+        <deliverable url="pr.dtd">
+            DTD do Project Record.
+        </deliverable>
+        <deliverable url="movies">
+            Pasta onde guarda os ficheiros referentes a este tpc.
+        </deliverable>
+        <deliverable url="movies.json">
+            Ficheiro json a ser importado para a base de dados MongoDB.
+        </deliverable>
+        <deliverable url="movies/server.js">
+            Ficheiro javascript que permite iniciar o servidor.
+        </deliverable>
+        <deliverable url="movies/controllers/movies.js">
+            Ficheiro javascript que funciona como controlador do modelo.
+        </deliverable>
+        <deliverable url="movies/model/movie.js">
+            Ficheiro javascript que foi criado com base na estrutura de dados já existe na base de dados, para que
+            funcione como modelo.
+        </deliverable>
+        <deliverable url="movies/routes/api.js">
+            Ficheiro javascript que funciona como middleware entre o cliente e a base de dados.
+        </deliverable>
+    </deliverables>
+    <footer>
+        10/11/2019
+    </footer>
+</project-record>

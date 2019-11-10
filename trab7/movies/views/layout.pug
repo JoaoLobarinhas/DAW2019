@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title Movies
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='http://unpkg.com/axios/dist/axios.min.js')
+    script(src='/javascripts/actions.js')
+  body
+    .w3-bar.w3-indigo
+      a.w3-bar-item.w3-button.w3-large.w3-hover-white(href="http://localhost:3000/") Movies
+      a.w3-bar-item.w3-button.button.w3-hover-white(href="http://localhost:3000/insertMovie") Insert New Movie
+    block content

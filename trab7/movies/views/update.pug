@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  .w3-container.w3-blue
+    h1="Update Movie: "+m.title
+    br
+  .w3-container.w3-center
+    .w3-card-4.w3-left-align(style={width:'70%',margin:'auto'})
+        br
+        label.w3-margin 
+          b Title:
+        input.w3-margin.w3-input(type="text" name="title" id="title" value=m.title)
+        label.w3-margin 
+          b Release Year:
+        input.w3-margin.w3-input(type="text" name="year" id="year" value=m.year)
+        label.w3-margin 
+          b Cast:
+        input.w3-margin.w3-input(type="text" name="cast" id="cast" value=""+m.cast)
+        label.w3-margin 
+          b Genres
+        input.w3-margin.w3-input(type="text" name="genres" id="genres" value=""+m.genres)
+        button.w3-margin.w3-btn.w3-dark-grey(onClick=("updateMovie('"+m._id+"')")) Update Movie
+        br

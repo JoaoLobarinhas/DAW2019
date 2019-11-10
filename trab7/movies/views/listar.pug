@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  .w3-container.w3-blue
+    h1 Movies:
+    br
+  .w3-container.w3-center
+    each m in movies
+      .w3-card-4.w3-left-align(style={width:'70%',margin:'auto'})
+        header
+          h3.w3-margin="Title: "+m.title
+        br
+        h5.w3-margin="Release Year: "+m.year
+        h5.w3-margin="Cast: "+m.cast
+        h5.w3-margin="Genres: "+m.genres
+        .w3.bar.w3-margin
+          a.w3-bar-item.w3-button.w3-black.w3-medium(href="/"+m._id) Detail
+          a.w3-bar-item.w3-button.w3-yellow.w3-medium(href="/update/"+m._id) Update
+          button.w3-bar-item.w3-button.w3-red.w3-medium(onClick="deleteMovie('"+m._id+"')") Delete
+        br
+
+  
+  
