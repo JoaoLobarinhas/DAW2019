@@ -1,0 +1,50 @@
+extends layout
+
+block content
+  .w3-container.w3-blue
+    a(href="/")
+        h1 Entidades:
+    br
+  .w3-container.w3-center
+    .w3-card-4.w3-left-align(style={width:'70%',margin:'auto'})
+        header
+          h3.w3-margin Entidade
+        br
+        h5.w3-margin="Estado: "+m.estado
+        h5.w3-margin="Sigla: "+m.sigla
+        h5.w3-margin="Designação: "+m.designacao
+        h5.w3-margin="Internacional: "+m.internacional
+        h5.w3-margin="Sioe: "+m.sioe
+        br
+    br
+    .w3-container.w3-indigo
+        h1 Tipologias:
+    br
+    each t in tipo
+        .w3-card-4.w3-left-align(style={width:'70%',margin:'auto'})
+            h5.w3-margin="Sigla: "+t.sigla
+            h5.w3-margin="Designação: "+t.designacao
+            br
+    br
+    .w3-container.w3-grey
+        h1="Tipologias em que a entidade é Dono"
+    br
+    each d in dono
+        .w3-card-4.w3-left-align(style={width:'70%',margin:'auto'})
+            header
+                h3.w3-margin="Codigo: "+d.codigo
+            br
+            h5.w3-margin="Titulo: "+d.titulo
+            br
+    br
+    .w3-container.w3-black
+        h1="Tipologias em que a entidade é participante"
+    br
+    each p in part
+        .w3-card-4.w3-left-align(style={width:'70%',margin:'auto'})
+            header
+                h3.w3-margin="Codigo: "+p.codigo
+            br
+            h5.w3-margin="Titulo: "+p.titulo
+            h5.w3-margin="Tipo de participação: "+p.tipoPar
+            br

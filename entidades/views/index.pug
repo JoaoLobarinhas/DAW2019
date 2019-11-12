@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .w3-container.w3-blue
+    h1.w3-margin Entidades:
+  .w3-container.w3-center
+    each m in data
+      .w3-card-4.w3-left-align(style={width:'70%',margin:'auto'})
+        header
+          h3.w3-margin="ID: "+m.id
+        br
+        h5.w3-margin="Estado: "+m.estado
+        h5.w3-margin="Sigla: "+m.sigla
+        h5.w3-margin="Designacao: "+m.designacao
+        .w3.bar.w3-margin
+          a.w3-bar-item.w3-button.w3-black.w3-medium(href="/"+m.id) Detail
+        br
