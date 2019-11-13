@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE project-record SYSTEM "C:\Users\Lobarinhas\Desktop\UM\DesvolvimentoWebApp\DWeb2019\trab7\pr.dtd">
+<!DOCTYPE project-record SYSTEM "C:\Users\Lobarinhas\Desktop\UM\DesvolvimentoWebApp\DWeb2019\trab8\pr.dtd">
 <project-record>
     <header>
-        <keyname>TP7-DWeb2019</keyname>
-        <title>TPC7: Aplicação Web de gestão de Filmes</title>
+        <keyname>TP8-DWeb2019</keyname>
+        <title>TPC8: Exercício Nº 1: Prémios Nobel</title>
         <subtitle></subtitle>
-        <begin-date>07/11/2019</begin-date>
-        <end-date>10/11/2019</end-date>
+        <begin-date>13/11/2019</begin-date>
+        <end-date>13/11/2019</end-date>
         <supervisor url="http://www4.di.uminho.pt/~jcr">
             José Carlos Ramalho
         </supervisor>
@@ -20,13 +20,10 @@
     </workTeam>
     <abstract>
         <text>
-            Responder a algumas perguntas referentes a queries feita utilizando MongoDB  
+            Converter o dataset disponibilizado nos recursos para um formato à tua escolha, ou usá-lo como está (há vários conversores online de XML para JSON e outros formatos), e colocá-lo no sistema que usarás para assegurar a sua persistência: ficheiro, MongoDB, json-server, etc; 
         </text>
         <text>
-            Importar o documento <bold>"movies.json"</bold> para uma base de dados <bold>MongoDB</bold>
-        </text>
-        <text>
-            Implementar uma aplicação web que consiga fazer todas as funcionalidades do CRUD.
+            Criar um servidor nodejs que dê suporte à um API de Dados
         </text>
     </abstract>
     <deliverables>
@@ -36,27 +33,24 @@
         <deliverable url="pr.dtd">
             DTD do Project Record.
         </deliverable>
-        <deliverable url="perguntasMongo.txt">
-            Respostas as perguntas propostas.
-        </deliverable>
-        <deliverable url="movies">
+        <deliverable url="nobel">
             Pasta onde guarda os ficheiros referentes a este tpc.
         </deliverable>
-        <deliverable url="movies.json">
+        <deliverable url="prize.json">
             Ficheiro json a ser importado para a base de dados MongoDB.
         </deliverable>
-        <deliverable url="movies/server.js">
+        <deliverable url="nobel/server.js">
             Ficheiro javascript que permite iniciar o servidor.
         </deliverable>
-        <deliverable url="movies/controllers/movies.js">
+        <deliverable url="nobel/controllers/nobel.js">
             Ficheiro javascript que funciona como controlador do modelo.
         </deliverable>
-        <deliverable url="movies/model/movie.js">
+        <deliverable url="nobel/model/nobel.js">
             Ficheiro javascript que foi criado com base na estrutura de dados já existe na base de dados, para que
             funcione como modelo.
         </deliverable>
-        <deliverable url="movies/routes/api.js">
-            Ficheiro javascript que funciona como middleware entre o cliente e a base de dados.
+        <deliverable url="nobel/routes/api.js">
+            Ficheiro javascript que funciona trata dos pedidos recebidos por parte do cliente.
         </deliverable>
     </deliverables>
     <footer>
