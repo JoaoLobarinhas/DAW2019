@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project-record SYSTEM "C:\Users\Lobarinhas\Desktop\UM\DesvolvimentoWebApp\DWeb2019\Teste\pr.dtd">
+<project-record>
+    <header>
+        <keyname>Ficha daw2020-e1</keyname>
+        <title>Avaliação: Desenvolvimento de Aplicações Web</title>
+        <subtitle></subtitle>
+        <begin-date>16/01/2020</begin-date>
+        <end-date>16/01/2020</end-date>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">
+            José Carlos Ramalho
+        </supervisor>
+    </header>
+    <workTeam>
+        <element>
+            <number>PG41845</number>
+            <name>João Lobarinhas Fernandes Miranda</name>
+            <email url="pg41845@alunos.uminho.pt">pg41845@alunos.uminho.pt</email>
+        </element>
+    </workTeam>
+    <abstract>
+        <text>
+            Exercício Nº 1: Arquivo de Música Digital
+        </text>
+        <text>
+            Exercício Nº 2: CLAV: Classificação e Avaliação da Informação Pública
+        </text>
+    </abstract>
+    <deliverables>
+        <deliverable url="pr.xml">
+            Ficheiro XML do Porject Record.
+        </deliverable>
+        <deliverable url="pr.dtd">
+            DTD do Project Record.
+        </deliverable>
+        <deliverable url="Arquivo de Música Digital">
+            Pasta onde guarda os ficheiros referentes ao 1 exercício.
+        </deliverable>
+        <deliverable url="Arquivo de Música Digital/arquivoMusical.json">
+            Ficheiro json a ser importado para a base de dados MongoDB.
+        </deliverable>
+        <deliverable url="CLAV">
+            Pasta onde guarda os ficheiros referentes ao 2 exercício.
+        </deliverable>
+    </deliverables>
+    <footer>
+        16/01/2020
+    </footer>
+</project-record>

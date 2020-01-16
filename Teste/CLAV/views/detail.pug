@@ -1,0 +1,55 @@
+extends layout
+
+block content
+    .w3-container.w3-center
+        h3.w3-margin="Entidade "+m.id
+        .w3-card-4.w3-left-align(style={width:'70%',margin:'auto'})
+            h5.w3-margin="Estado: "+m.estado
+            h5.w3-margin="Sigla: "+m.sigla
+            h5.w3-margin="Designação: "+m.designacao
+            if m.internacional
+                h5.w3-margin="Internacional: "+m.internacional
+            if m.sioe
+                h5.w3-margin="Sioe: "+m.sioe
+    .w3-container.w3-grey
+        h3.w3.margin="Tipologias"
+    br
+    table.w3-table
+        tr
+            th Sigla
+            th Designação
+            th ID
+            th Ações
+        for t in tipologias
+            tr
+                td=t.sigla
+                td=t.designacao
+                td=t.id
+                td
+                    a.w3-button.w3-black(href="/tipologias/"+t.id) Detalhes
+    if procD
+        .w3-container.w3-grey
+            h3.w3.margin="Processos Dono"
+        br
+        table.w3-table
+            tr
+                th Codigo
+                th Titulo
+            for pd in procD
+                tr
+                    td=pd.codigo
+                    td=pd.titulo
+    if procT
+        .w3-container.w3-grey
+            h3.w3.margin="Processos Participante"
+        br
+        table.w3-table
+            tr  
+                th Tipo de participação
+                th Codigo
+                th Titulo
+            for pt in procT
+                tr
+                    td=pt.tipoPar
+                    td=pt.codigo
+                    td=pt.titulo               

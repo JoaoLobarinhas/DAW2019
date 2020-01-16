@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  .w3-container.w3-center
+    h2.w3-margin CLAV API
+    h5.w3-margin Esta web page utiliza a API do projecto CLAV.
+    h5.w3-margin Esta é a API do projeto CLAV. Pode encontrar mais informação sobre o CLAV em:
+    a.w3-button.w3-black(href="http://clav.dglab.gov.pt") CLAV API
+  br
+  .w3-container.w3-grey
+    h3.w3-margin Entidades:
+  .w3-container.w3-center
+    each m in data
+      .w3-card-4.w3-left-align(style={width:'70%',margin:'auto'})
+        header
+          h3.w3-margin="Sigla: "+m.sigla
+        h5.w3-margin="Designação: "+m.designacao
+        .w3.bar
+          a.w3-bar-item.w3-button.w3-black.w3-medium.w3-margin(href="/"+m.id) Detalhes
+

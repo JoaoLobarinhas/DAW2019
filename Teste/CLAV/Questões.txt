@@ -1,0 +1,11 @@
+P: Quantas Entidades estão catalogadas?
+R: 546
+
+P: A que Tipologias pertence a Entidade "Autoridade para as Condições de Trabalho" (ent_ACT)?
+R: tip_AP,tip_ASF
+
+P: Em que processos a entidade "Autoridade Nacional de Segurança Rodoviária" (ent_ANSR) participa como Iniciador?
+R: {"tipoPar":"temParticipanteIniciador","codigo":"400.10.056","titulo":"Registo nacional de condutores"}]
+
+P: De que processos é dona a entidade "Colégio Militar" (ent_SEF)?
+R:[{"codigo":"150.30.001","titulo":"Produção e intercâmbio de informação estratégica para segurança interna e defesa"},{"codigo":"400.10.004","titulo":"Registo de cidadãos da União Europeia"},{"codigo":"400.10.026","titulo":"Atribuição e registo de estatuto de igualdade"},{"codigo":"400.10.027","titulo":"Emissão de passaportes"},{"codigo":"400.10.028","titulo":"Emissão de documentos de viagem a estrangeiros"},{"codigo":"400.10.029","titulo":"Emissão de título de residente"},{"codigo":"400.10.042","titulo":"Identificação de estrangeiros"},{"codigo":"500.30.005","titulo":"Abandono voluntário do território nacional"},{"codigo":"500.30.006","titulo":"Afastamento coercivo do território nacional"},{"codigo":"500.30.007","titulo":"Condução à fronteira"},{"codigo":"550.10.004","titulo":"Apoio de forças de segurança a diligências"},{"codigo":"550.10.008","titulo":"Controlo de pessoas nas fronteiras"},{"codigo":"550.10.009","titulo":"Vigilância da fronteira"},{"codigo":"550.10.301","titulo":"Emissão de vistos"},{"codigo":"550.10.302","titulo":"Autorização de trânsito para efeitos de afastamento por via aérea"},{"codigo":"550.10.303","titulo":"Autorização de residência"},{"codigo":"550.10.304","titulo":"Manifestações de interesse"},{"codigo":"550.10.305","titulo":"Processamento de pedidos de asilo"},{"codigo":"550.10.306","titulo":"Readmissão de estrangeiros em situação ilegal"},{"codigo":"600.40.300","titulo":"Expulsão judicial"},{"codigo":"650.10.107","titulo":"Subsídios para apoio ao regresso voluntário"}] 
